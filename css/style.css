@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+}
+nav{
+    height: 100%;
+}
+.bg{
+    background-color:#fff;
+    box-shadow: 0px 5px 10px 0px rgba(214,214,214,1);
+}
+
+.borda-teste{
+    border: 1px solid black;
+}
+.parte1{
+    display: flex;
+    width: 20%;
+    
+}
+.parte2{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.parte3{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
