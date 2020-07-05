@@ -1,13 +1,6 @@
 body, html{
     height: 100%;
 }
-ul li{
-    list-style: none;
-}
-nav{
-    height: 100px;
-    box-sizing: border-box;
-}
 .bg{
     background-color:#fff;
     box-shadow: 0px 5px 10px 0px rgba(214,214,214,1);
@@ -17,87 +10,13 @@ nav{
     border: 1px solid black;
 }
 
-.parte1{
-    display: flex;
-    width: 20%;
-    align-items: center;
-    
-}
-.parte1 a img{
-    align-items: center;
-    padding-bottom: 5px;
-    
-}
-
-
-.parte2{
-    display: flex;
-    box-sizing: border-box;
-    width: 50%;
-    justify-content: center;
-    height: 100%;
-    align-items: center;    
-}
-
-.parte2 ul{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    
-}
-.parte2 ul li{
-    display: flex;
-    margin:0 5px;
-    height: 60px;
-    align-items: center;
-}
-.parte2 ul a{
-    text-decoration: none;
-    color:#0B4F66;
-    font-weight: bold;
-    transition: ease 0.6s;
-    }
-
-.parte2 ul a:hover{
-    background-color:#0B4F66;
-    color: #EA7442;
-    text-decoration: none;
-}
-.parte3{
-    display: flex;
-    width: 30%;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100%;
-}
-.parte3 ul a{
-    text-decoration: none;
-    color:#0B4F66;    
-    transition: ease 0.6s;  
-}
-.parte3 ul a:hover{
-    text-decoration: none;
-    color:#EA7442;    
-    transition: ease 0.6s;
-    background-color: #0B4F66;
-    border-radius: 20%;
-
-}
-.parte3 ul{
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-.parte3 ul li{
-    /* margin: 0 3px; */
-    padding: 5px;
-}
 .btn-cliente{
     background-color: #EA7442;
     color: #fff;
-    border-radius: 5px;
-    margin-left: 10px;
+}
+.btn-cliente:hover{
+    color: #000;
+    background-color: transparent;
+    border: solid 1px #EA7442;
+    box-sizing: border-box;    
 }
