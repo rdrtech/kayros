@@ -10,13 +10,37 @@ body, html{
     border: 1px solid black;
 }
 
+#menu .nav-link{
+    color: #0B4F66;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#menu li a:hover{
+    background-color: #0B4F66;
+    color: #EA7442;
+    transform: scale(1.1,1.1);
+    transition: ease 0.6s;
+}
+
 .btn-cliente{
-    background-color: #EA7442;
     color: #fff;
+    background-color: #EA7442;
 }
 .btn-cliente:hover{
     color: #000;
     background-color: transparent;
     border: solid 1px #EA7442;
     box-sizing: border-box;    
+}
+
+.cor-redes{
+    color: #0B4F66;
+    font-size: 1.2em;   
+}
+
+#redes li a:hover{
+    font-weight: bold;
+    transform: translateY(-5px) rotate(30deg);    
+    transition: ease 0.6s;
 }
