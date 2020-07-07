@@ -45,11 +45,23 @@ body, html{
     transition: ease 0.6s;
 }
 
-/* conteudo */
-.slide-tam{
-    width: 1024px;
-    height: 580px;
-    background-color: #EA7442;
+/* conteudo home*/
+
+.item1 .carousel-caption h2{    
+    color: #0B4F66;
+    font-weight: bold;
+}
+.item1 .carousel-caption p{    
+    color: #000;
+    font-weight: 300;
+}
+.item1 .carousel-caption{
+    top: 10%;
+    left: 10%;
+    text-align: start;
+}
+#slider .carousel-inner, #slider .carousel-item{
+    height: 90vh;
 }
 
 /* CSS DA PAGINA CONTATO.HTML */

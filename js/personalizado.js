@@ -12,3 +12,11 @@ document.querySelectorAll('.click-menu').forEach(link =>{
 function msg() {
     alert("Programar essa parte do envio");
 }
+
+function carregahome(){
+    const conteudo = document.getElementById('conteudo');
+    fetch('./pages/home.html')
+            .then(resp => resp.text())
+            .then(html => conteudo.innerHTML = html)
+}
+carregahome();
