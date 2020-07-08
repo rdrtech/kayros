@@ -1,32 +1,69 @@
-<div class="container contact animate__animated animate__fadeIn">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="contact-info">
-                <h2>Contmatic</h2>
+<table border="0" width="100%"
+cellpadding="10">
+<tr>
+    <td>
+    <div class="container contact animate__animated animate__fadeIn">
+        <div class="col">
+                <div class="contact-info">
+                    <h2>Contmatic</h2>
+                </div>
+            <div class="col-md-9"> 
+                <form name='form1' class='formlogin' id='form1' action='http://app.contmaticcontadoronline.com.br/efetualogin' method='post'>
+                    <label>Código: </label>
+                    <div class="col-sm-10">
+                        <input type='text' class="form-control" name='usuario.cliente.id' id='cliente.id' size='10' maxlength='91'> <br>
+                    </div>
+
+                    <label>Usuário: </label>
+                    <div class="col-sm-10">
+                        <input type='text' class="form-control" name='usuario.login' id='usuario.login' size='10' maxlength='91'> <br>
+                    </div>
+
+                    <label>Senha: </label>
+                    <div class="col-sm-10">
+                        <input type='password' class="form-control" name='usuario.senha ' id='usuario.senha ' size='10' maxlength='91'> <br>
+                    </div> 
+                    
+                    <input type='submit' value='Acessar' class='btn_acessar'>
+                    <input type='hidden' name='contador.id' id='contador.id' value='53772'>
+                    <br>
+                    <a href='http://app.contmaticcontadoronline.com.br/login/recuperasenha/53772'>Esqueci minha senha</a>
+                    </form>
             </div>
         </div>
-        <div class="col-md-9"> 
-            <form name='form1' class='formlogin' id='form1' action='http://app.contmaticcontadoronline.com.br/efetualogin' method='post'>
-                <label>Código: </label>
-                <div class="col-sm-10">
-                    <input type='text' class="form-control" name='usuario.cliente.id' id='cliente.id' size='10' maxlength='91'> <br>
-                </div>
-
-                <label>Usuário: </label>
-                <div class="col-sm-10">
-                    <input type='text' class="form-control" name='usuario.login' id='usuario.login' size='10' maxlength='91'> <br>
-                </div>
-
-                <label>Senha: </label>
-                <div class="col-sm-10">
-                    <input type='password' class="form-control" name='usuario.senha ' id='usuario.senha ' size='10' maxlength='91'> <br>
-                </div> 
-                
-                <input type='submit' value='Acessar' class='btn_acessar'>
-                <input type='hidden' name='contador.id' id='contador.id' value='53772'>
-                <br>
-                <a href='http://app.contmaticcontadoronline.com.br/login/recuperasenha/53772'>Esqueci minha senha</a>
-                </form>
-        </div>
     </div>
-</div>
+    </td>
+    <td>
+        <div class="container contact animate__animated animate__fadeIn">
+            <div class="col">
+                <div class="contact-info">
+                    <h2>Gestão Click</h2>
+                </div>
+                <div class="col-md-9"> 
+                    <form name='form1' class='formlogin' id='form1' action='http://app.contmaticcontadoronline.com.br/efetualogin' method='post'>
+                        <label>Código: </label>
+                        <div class="col-sm-10">
+                            <input type='text' class="form-control" name='usuario.cliente.id' id='cliente.id' size='10' maxlength='91'> <br>
+                        </div>
+    
+                        <label>Usuário: </label>
+                        <div class="col-sm-10">
+                            <input type='text' class="form-control" name='usuario.login' id='usuario.login' size='10' maxlength='91'> <br>
+                        </div>
+    
+                        <label>Senha: </label>
+                        <div class="col-sm-10">
+                            <input type='password' class="form-control" name='usuario.senha ' id='usuario.senha ' size='10' maxlength='91'> <br>
+                        </div> 
+                        
+                        <input type='submit' value='Acessar' class='btn_acessar'>
+                        <input type='hidden' name='contador.id' id='contador.id' value='53772'>
+                        <br>
+                        <a href='http://app.contmaticcontadoronline.com.br/login/recuperasenha/53772'>Esqueci minha senha</a>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </td>
+</tr>
+</table>
