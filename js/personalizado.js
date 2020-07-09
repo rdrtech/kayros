@@ -15,8 +15,24 @@ function msg() {
 
 function carregahome(){
     const conteudo = document.getElementById('conteudo');
-    fetch('./pages/areacliente.html')
+    fetch('./pages/home.html')
             .then(resp => resp.text())
             .then(html => conteudo.innerHTML = html)
 }
 carregahome();
+
+function carregaSobre(){
+    const conteudo = document.getElementById('conteudo');
+    fetch('./pages/sobre.html')
+            .then(resp => resp.text())
+            .then(html => conteudo.innerHTML = html)
+}
+
+function carregaContato(){
+    const conteudo = document.getElementById('conteudo');
+    fetch('./pages/contato.+++++++++++++++++++++html')
+            .then(resp => resp.text())
+            .then(html => conteudo.innerHTML = html)
+}
+
+new WOW().init();
