@@ -1,66 +1,93 @@
 <table border="0" width="100%"
 cellpadding="10">
-<tr>
-    <td>
-    <div class="container contact animate__animated animate__fadeIn">
-        <div class="col">
-                <div class="contact-info">
-                    <h2>Contmatic</h2>
+<tr align="center">
+    <td align="center">
+        <br><br>
+        <div class="container contact animate__animated animate__fadeIn"> 
+            <div class="col-md-9" align="left">
+                <h1>Gestão Click</h1>
+                <br>
+                <label for="validationCustomUsername">Usuário</label>
+                <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
                 </div>
-            <div class="col-md-9"> 
-                <form name='form1' class='formlogin' id='form1' action='http://app.contmaticcontadoronline.com.br/efetualogin' method='post'>
-                    <label>Código: </label>
-                    <div class="col-sm-10">
-                        <input type='text' class="form-control" name='usuario.cliente.id' id='cliente.id' size='10' maxlength='91'> <br>
-                    </div>
+                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                    Por favor, escolha um nome de usuário.
+                </div>
+                </div>
 
-                    <label>Usuário: </label>
-                    <div class="col-sm-10">
-                        <input type='text' class="form-control" name='usuario.login' id='usuario.login' size='10' maxlength='91'> <br>
-                    </div>
-
-                    <label>Senha: </label>
-                    <div class="col-sm-10">
-                        <input type='password' class="form-control" name='usuario.senha ' id='usuario.senha ' size='10' maxlength='91'> <br>
-                    </div> 
-                    
-                    <input type='submit' value='Acessar' class='btn_acessar'>
-                    <input type='hidden' name='contador.id' id='contador.id' value='53772'>
-                    <br>
-                    <a href='http://app.contmaticcontadoronline.com.br/login/recuperasenha/53772'>Esqueci minha senha</a>
-                </form>
+                <label for="validationCustomUsername">Senha</label>
+                <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend"><img src="./img/senha.png" width="15" height="15" class="d-inline-block align-top" alt="Logo Menu"
+                        loading="lazy"></span>
+                </div>
+                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Senha" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                    Por favor, escolha um nome de usuário.
+                </div>
+                </div>
+                <br>
+                
+                <input type='submit' value='Acessar' class='btn_acessar'>
+                <input type='hidden' name='contador.id' id='contador.id' value='53772'>
+                <br>
+                <a href='#'>Esqueci minha senha</a>
             </div>
         </div>
-    </div>
     </td>
-    <td>
+    <td align="center">
+        <img src="./img/separador.png" width="10" height="500" class="d-inline-block align-top" loading="lazy">
+    </td>
+    <td align="center">
         <div class="container contact animate__animated animate__fadeIn">
             <div class="col">
-                <div class="contact-info">
-                    <h2>Gestão Click</h2>
-                </div>
-                <div class="col-md-9"> 
+                <div class="col-md-9" align="left"> 
+                    <h1>Contmatic</h1>
+                    <br>
                     <form name='form1' class='formlogin' id='form1' action='http://app.contmaticcontadoronline.com.br/efetualogin' method='post' target="_blank">
-                        <label>Código: </label>
-                        <div class="col-sm-10">
-                            <input type='text' class="form-control" name='usuario.cliente.id' id='cliente.id' size='10' maxlength='91'> <br>
-                        </div>
-    
-                        <label>Usuário: </label>
-                        <div class="col-sm-10">
-                            <input type='text' class="form-control" name='usuario.login' id='usuario.login' size='10' maxlength='91'> <br>
-                        </div>
-    
-                        <label>Senha: </label>
-                        <div class="col-sm-10">
-                            <input type='password' class="form-control" name='usuario.senha ' id='usuario.senha ' size='10' maxlength='91'> <br>
+                        
+                        <label for="validationCustomUsername">Código</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend">N</span>
+                            </div>
+                            <input type='text' class="form-control" name='usuario.cliente.id' id='cliente.id' placeholder="Código">
+                            <div class="invalid-feedback">
+                            Por favor, preencha o código.
+                            </div>
                         </div> 
                         
+                        <label for="validationCustomUsername">Usuário</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type='text' class="form-control" name='usuario.login' id='usuario.login' placeholder="Usuário">
+                            <div class="invalid-feedback">
+                            Por favor, preencha o código.
+                            </div>
+                        </div> 
+
+                        <label for="validationCustomUsername">Senha</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend"><img src="./img/senha.png" width="15" height="15" class="d-inline-block align-top" alt="Logo Menu"
+                                loading="lazy"></span>
+                            </div>
+                            <input type='password' class="form-control" name='usuario.senha ' id='usuario.senha ' placeholder="Senha">
+                            <div class="invalid-feedback">
+                            Por favor, preencha o código.
+                            </div>
+                        </div> 
+                        <br>
                         <input type='submit' value='Acessar' class='btn_acessar'>
                         <input type='hidden' name='contador.id' id='contador.id' value='53772'>
                         <br>
                         <a href='http://app.contmaticcontadoronline.com.br/login/recuperasenha/53772'>Esqueci minha senha</a>
-                        </form>
+                    </form>
                 </div>
             </div>
         </div>
