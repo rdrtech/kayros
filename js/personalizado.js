@@ -30,7 +30,7 @@ function carregaSobre(){
 
 function carregaContato(){
     const conteudo = document.getElementById('conteudo');
-    fetch('./pages/contato.+++++++++++++++++++++html')
+    fetch('./pages/contato.html')
             .then(resp => resp.text())
             .then(html => conteudo.innerHTML = html)
 }
