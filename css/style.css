@@ -159,3 +159,25 @@ body, html{
     border: solid 1px #0B4F66;
     box-sizing: border-box;    
 }
+
+
+/* página quem somos */
+.img-capa{
+    width: 180px;
+    height: 100px;  
+}
+.linha{
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to left, #EA7442,  #0B4F66 );
+}
+.bg-m-v-v{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to left, rgba(234,116,66,0.3),  rgba(11,79,112,0.3));
+}
+.bg-m-v-v2{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(234,116,66,0.5),  rgba(11,79,112,0.5));
+}
