@@ -175,9 +175,11 @@ body, html{
     height: 100px;
     width: 100%;
     background: linear-gradient(to left, rgba(234,116,66,0.3),  rgba(11,79,112,0.3));
+    border-radius: 10px;
 }
 .bg-m-v-v2{
     height: 100px;
     width: 100%;
     background: linear-gradient(to right, rgba(234,116,66,0.5),  rgba(11,79,112,0.5));
+    border-radius: 10px;
 }
