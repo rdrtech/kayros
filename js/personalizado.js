@@ -15,7 +15,7 @@ function msg() {
 
 function carregahome(){
     const conteudo = document.getElementById('conteudo');
-    fetch('./pages/home.html')
+    fetch('./pages/assinatura.html')
             .then(resp => resp.text())
             .then(html => conteudo.innerHTML = html)
 }
@@ -36,3 +36,14 @@ function carregaContato(){
 }
 
 new WOW().init();
+
+function nomeAssinatura(){
+    // const nome = document.getElementById('nome-assinatura');
+    // const nomeImg = document.getElementById('nome-assinatura-img');
+    // nomeImg.innerText = nome;
+    document.getElementById('nome-assinatura-img').innerText = $('#nome-assinatura').val();
+}
+
+function cargoAssinatura(){
+    document.getElementById('cargo-assinatura').innerText = $('#cargo-a').val();    
+}

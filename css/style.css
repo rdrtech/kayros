@@ -183,3 +183,42 @@ body, html{
     background: linear-gradient(to right, rgba(234,116,66,0.5),  rgba(11,79,112,0.5));
     border-radius: 10px;
 }
+
+/* pagina assinatura de email */
+.header{
+    display: flex;
+}
+.card-assinatura{
+    height: 150px;
+    width: 80%;
+    /* background-color: rosybrown; */
+    display: flex;
+    align-items: center;
+}
+.card-assinatura img{
+    height: 80px;
+    width: 80px;
+}
+.nome-ass{
+    position: absolute;
+    font-size: 20px;
+    left: 155px;
+    top: 5%;
+    font-weight: bold;
+}
+.cargo-ass{
+    position: absolute;
+    left: 155px;
+    font-size: 15px;
+    top: 11%;
+}
+
+.tel-fixo, .tel-cel{
+    font-size: 13px;
+}
+.email-ass{
+    position: absolute;
+    top: 22%;
+    left: 165px;
+    font-weight: 100;
+}
