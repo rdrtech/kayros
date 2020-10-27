@@ -15,7 +15,7 @@ function msg() {
 
 function carregahome(){
     const conteudo = document.getElementById('conteudo');
-    fetch('./pages/assinatura.html')
+    fetch('./pages/home.html')
             .then(resp => resp.text())
             .then(html => conteudo.innerHTML = html)
 }
