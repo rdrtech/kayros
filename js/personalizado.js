@@ -48,6 +48,18 @@ function cargoAssinatura(){
     document.getElementById('cargo-assinatura').innerText = $('#cargo-a').val();    
 }
 
+function emailAssinatura(){
+    document.getElementById('email-assinatura').innerText = $('#email-a').val();    
+}
+
+function telefoneAssinatura(){
+    document.getElementById('telefone-assinatura').innerText = $('#telefone-a').val();    
+}
+
+function celularAssinatura(){
+    document.getElementById('celular-assinatura').innerText = $('#celular-a').val();    
+}
+
 function capturaUrl(){    
     var url_atual = window.location.href;
     if(url_atual == "http://kayroscontabil.com.br/index.html?status=sucesso"){
