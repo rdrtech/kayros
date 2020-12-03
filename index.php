@@ -40,7 +40,7 @@
                         <a class="nav-link click-menu" href="./pages/sobre.html">  Empresa  </a>
                     </li>                    
                     <li class="nav-item">
-                        <a class="nav-link click-menu" href="./pages/contato.php">  Contato  </a>
+                        <a class="nav-link click-menu" href="./pages/contato.html">  Contato  </a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto mt-auto mt-2 mt-lg-0" id="redes">

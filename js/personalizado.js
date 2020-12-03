@@ -47,3 +47,13 @@ function nomeAssinatura(){
 function cargoAssinatura(){
     document.getElementById('cargo-assinatura').innerText = $('#cargo-a').val();    
 }
+
+function capturaUrl(){    
+    var url_atual = window.location.href;
+    if(url_atual == "http://kayroscontabil.com.br/index.html?status=sucesso"){
+        alert("Mensagem enviada com sucesso!");        
+    }else if(url_atual == "http://kayroscontabil.com.br/index.html?status=erro"){
+        alert("Erro ao enviar a mensagem!");        
+    }
+}
+capturaUrl();
